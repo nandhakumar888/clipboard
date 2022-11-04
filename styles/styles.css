@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,400;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hwb(233 38% 0%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+}
+html {
+  font-size: 18px;
+}
+
+/* body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url(../images/bg-header-mobile.png);
+    width: 100%;
+    background-color: gray;
+    padding: 100px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px 400px 50px;
+}
+
+.card{
+    height: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 170px;
+    padding-left: 20px;
+    display: block;
+} */
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: var(--Light-Gray);
+  padding: 90px;
+  height: 100vh;
+  width: 29rem;
+  text-align: center;
+  background-image: url(../images/bg-header-mobile.png);
+  margin-left: -11px;
+}
+
+.title-one {
+  text-align: center;
+  margin-right: -38px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph1 {
+  width: 24.7rem;
+  padding: 30px 39px 10px 20px;
+  line-height: 30px;
+  margin-left: -40px;
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--Grayish-Blue);
+}
+
+.button-div12 {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.button1 {
+  margin-top: 30px;
+  padding: 25px;
+  width: 20rem;
+  margin-left: -22px;
+  border-radius: 34px;
+  background-color: var(--Strong-Cyan);
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+  width: 20rem;
+  border-radius: 34px;
+  margin-left: -22px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  color: white;
+  padding: 25px;
+  background-color: var(--Light-Blue);
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: white;
+  color: var(--Strong-Cyan);
+}
+
+.button2:hover {
+  background-color: white;
+  color: var(--Light-Blue);
+}
+
+.title-two {
+  margin-top: 170px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph2 {
+  margin-top: 40px;
+  line-height: 25px;
+  font-size: 17.7px;
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+}
+
+.third-title {
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph3 {
+  margin-top: 30px;
+  font-weight: 500;
+  color: var(--Grayish-Blue);
+  line-height: 26px;
+  font-size: 18px;
+}
+
+.title-four {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph4 {
+  margin-top: 30px;
+  color: var(--Grayish-Blue);
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.title-five {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph5 {
+  margin-top: 30px;
+  color: var(--Grayish-Blue);
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.card {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+}
+
+.photo-img {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.new-computer {
+  width: 18rem;
+  margin-top: 70px;
+}
+
+.computer-2 {
+  width: 18rem;
+  margin-top: 30px;
+}
+
+.title-six {
+  margin-top: 30px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph6 {
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: var(--Grayish-Blue);
+  font-weight: 600;
+}
+
+.title-seven {
+  margin-top: 100px;
+  font-weight: 600;
+  font-size: 29px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph7 {
+  margin-top: 20px;
+  color: var(--Grayish-Blue);
+  font-weight: 600;
+}
+
+.text-page {
+  margin-top: 100px;
+}
+
+.image-text-new {
+  margin-top: 40px;
+}
+
+.title-eight {
+  margin-top: 30px;
+  color: var(--Dark-Grayish-Blue);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.paragraph8 {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.4rem;
+  color: var(--Grayish-Blue);
+  font-weight: 600;
+}
+
+.title-nine {
+  margin-top: 40px;
+  font-size: 32px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph9 {
+  font-size: 16px;
+  margin-top: 20px;
+  color: var(--Grayish-Blue);
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+.image-pre {
+  margin-top: 40px;
+}
+
+.title-ten {
+  margin-top: 40px;
+  font-size: 32px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph10 {
+  font-size: 16px;
+  margin-top: 20px;
+  color: var(--Grayish-Blue);
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+.fourth-container {
+  flex-direction: column;
+  display: flex;
+  margin-top: 130px;
+  text-align: center;
+  justify-content: center;
+}
+
+.logo-in-google {
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.new-ibm {
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.micro-img {
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.class-hp {
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.vector-image {
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.title-11 {
+  margin-top: 180px;
+  font-size: 28px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.paragraph11 {
+  margin-top: 30px;
+  line-height: 1.4rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--Grayish-Blue);
+}
+
+.button4 {
+  margin-top: 30px;
+  padding: 25px;
+  width: 20rem;
+  margin-left: -22px;
+  border-radius: 34px;
+  background-color: var(--Strong-Cyan);
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+}
+
+.button5 {
+  width: 20rem;
+  border-radius: 34px;
+  margin-left: -22px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  color: white;
+  padding: 25px;
+  background-color: var(--Light-Blue);
+  cursor: pointer;
+}
+
+.button4:hover {
+  background-color: white;
+  color: var(--Strong-Cyan);
+}
+
+.button5:hover {
+  background-color: white;
+  color: var(--Light-Blue);
+}
+
+.copy-right {
+  margin-top: 200px;
+  width: 70px;
+}
+
+p {
+  margin-top: 20px;
+  color: var(--Grayish-Blue);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.facebook-image {
+  margin-top: 50px;
+  gap: 2rem;
+  margin-right: 60px;
+  width: 40px;
+}
+
+.twiter-image {
+  margin-right: 50px;
+  width: 40px;
+}
+
+.instagram-image {
+  width: 40px;
+}
+
+.fifth-container {
+  padding-bottom: 70px;
+}
